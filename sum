@@ -1,0 +1,20 @@
+#include<stdio.h>
+  
+  int sum(int var1,int var2);    // function declaration
+ 
+
+int main(){
+ int a,b;
+ scanf("%d %d",&a,&b);
+
+ int results=sum(a,b);
+ printf("sum of %d and %d is %d ",a,b,results);
+
+    return 0;
+}
+
+ int sum(int num1 , int num2)    // function definition
+ {
+    int val=num1+num2;
+    return val;
+  }
